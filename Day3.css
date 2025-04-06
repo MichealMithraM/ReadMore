@@ -1,0 +1,96 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Image styling for better presentation */
+.image {
+    border-radius: 20%;
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Card styling */
+.card-list .card-item {
+    width: 400px;
+    padding: 18px;
+    border-radius: 18%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    border: 2px solid #d8d16ef1;
+    height: 350px;
+    width: 320px;
+    background-color: #d8d16ef1;
+    border-radius: 10%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Name text styling */
+.card-item .name {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Wrap for the text */
+.wrap {
+    width: 100%;
+    border: 1.5px solid rgba(230, 228, 167, 0.959);
+    background-color: rgb(230, 228, 167);
+    transition: 0.5s ease-in-out;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+/* Ellipsis and extra text */
+.threedot {
+    display: inline;
+}
+
+.more_cont {
+    display: none;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Read More / Read Less button */
+.readmore {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(134, 130, 8);
+    display: inline-block;
+    margin-top: 0.8rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.2rem;
+    transition: 0.2s ease-in-out;
+}
+
+.readmore:hover {
+    color: rgb(134, 130, 8);
+    background-color: rgb(255, 255, 255);
+}
